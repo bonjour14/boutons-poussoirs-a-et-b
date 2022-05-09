@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="AMUuptX0@Bvmv4k=gBzj" x="72" y="10"><statement name="HANDLER"><block type="basic_show_icon" id="p;coe9KdyI^t=U/RSyc]"><field name="i">IconNames.Heart</field></block></statement></block><block type="device_forever" id="Z(Uc~YuGy3n9dsjV7]3S" x="347" y="23"><statement name="HANDLER"><block type="controls_if" id="l@Dt8332rK9h0q.RBUoe"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="n%DYcI-ljz8U(JWnh+1M"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_show_leds" id="x$txLfV7$lht7{qg{I%T"><field name="LEDS">`
+        . # # . . 
+        # . . # . 
+        # # # # . 
+        # . . # . 
+        # . . # .
+        `</field></block></statement><next><block type="controls_if" id="Nqo0S%=IH+?;bhj`uR,5"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="rgEDz[%.p3A8p3I+JEXl"><field name="NAME">Button.B</field></block></value><statement name="DO0"><block type="device_show_leds" id="8|~ApU,{_T+W;1sITit{"><field name="LEDS">`
+        # # # . . 
+        # . . # . 
+        # # # . . 
+        # . . # . 
+        # # # . .
+        `</field></block></statement></block></next></block></statement></block><block type="device_forever" id="5}g^B])%`9hqNQ|,2D(@" x="363" y="834"><statement name="HANDLER"><block type="controls_if" id="IM.`}f6@r3R~VwhkaZ)3"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="@$DtgaW{k$P|N0BuRG59"><field name="NAME">Button.AB</field></block></value><statement name="DO0"><block type="device_clear_display" id=")R1]=,lg]g!VF}2RQ0R]"/></statement></block></statement></block></xml>
