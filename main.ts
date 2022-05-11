@@ -1,4 +1,13 @@
-basic.showIcon(IconNames.Heart)
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.showIcon(IconNames.Happy)
+})
+basic.showLeds(`
+    . . # . .
+    . . # . .
+    # # # # #
+    . . # . .
+    . . # . .
+    `)
 basic.forever(function () {
     if (input.buttonIsPressed(Button.A)) {
         basic.showLeds(`
@@ -21,6 +30,12 @@ basic.forever(function () {
 })
 basic.forever(function () {
     if (input.buttonIsPressed(Button.AB)) {
-        basic.clearScreen()
+        basic.showLeds(`
+            # # # # #
+            # . . . #
+            # . . . #
+            # . . . #
+            # # # # #
+            `)
     }
 })
